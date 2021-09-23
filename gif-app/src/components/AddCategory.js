@@ -22,7 +22,8 @@ export const AddCategory = ({ setCategories }) => {
         type="text"
         value={inputValue}
         onChange={handleInputChange}
-        placeholder="Ej: Hunter x hunter"
+        placeholder="Ej: Studio Ghibli"
+        className="input is-rounded"
       />
     </form>
   );
