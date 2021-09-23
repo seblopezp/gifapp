@@ -8,7 +8,7 @@ export const GifList = ({ category }) => {
     <>
       <h3 className="animate__animated animate__fadeIn">{category}</h3>
       {loading && (
-        <p className="animate__animated animate__pulse">Loading...</p>
+        <p className="animate__animated animate__flash">Loading...</p>
       )}
       <div className="card-grid">
         {images.map((img) => (
