@@ -1,6 +1,6 @@
 import React from "react";
 import { useFetchGifs } from "../hooks/useFetchGifs";
-import { GridListItem } from "../components/GridListItem";
+import { GridListItem } from "./GridListItem";
 export const GifList = ({ category }) => {
   const { data: images, loading } = useFetchGifs(category);
 
