@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory /> Debe mostrarse correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="input is-rounded"
+    onChange={[Function]}
+    placeholder="Ej: Studio Ghibli"
+    type="text"
+    value=""
+  />
+</form>
+`;
