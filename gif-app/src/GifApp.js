@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
 import { GifList } from "./components/GifList";
 
-export const GifApp = () => {
-  const [categories, setCategories] = useState(["Studio Ghibli"]);
+export const GifApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <div>
