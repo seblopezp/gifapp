@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifApp /> Debe mostrar el componente correctamente 1`] = `
+<div>
+  <h1
+    className="title"
+  >
+    Gif App
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</div>
+`;
+
+exports[`Pruebas en <GifApp /> Debe mostrar lista de categorias 1`] = `
+<div>
+  <h1
+    className="title"
+  >
+    Gif App
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifList
+      category="Studio Ghibli"
+      key="Studio Ghibli"
+    />
+    <GifList
+      category="Jujutsu Kaisen"
+      key="Jujutsu Kaisen"
+    />
+  </ol>
+</div>
+`;
